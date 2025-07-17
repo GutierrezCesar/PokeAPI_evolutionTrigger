@@ -3,19 +3,21 @@
 Este proyecto es una aplicación Java que permite consultar información de métodos de evolución de Pokémon desde la [PokeAPI](https://pokeapi.co) mediante su ID y guardar el resultado en formato JSON.
 
 ## 📦 Estructura del Proyecto
+```
+📂 src/
 ├── app/
-│ ├── ConsultaPokemon.java
+│ └── ConsultaPokemon.java
 ├── model/
 │ ├── Language.java
 │ ├── NameEntry.java
-│ ├── Pokemon.java
+│ └── Pokemon.java
 ├── util/
 │ ├── Principal.java
-│ ├── GenerarArchivos.java
+│ └── GenerarArchivos.java
 ├── .gitignore
-├── ApiPokemon.json
-└── README.md
+├── README.md
 ## 🚀 ¿Qué hace esta aplicación?
+```
 
 - Pide al usuario que ingrese un ID de método de evolución.
 - Realiza una consulta a `https://pokeapi.co/api/v2/evolution-trigger/{id}`.
